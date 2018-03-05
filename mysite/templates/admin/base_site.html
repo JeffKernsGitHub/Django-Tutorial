@@ -1,3 +1,9 @@
+<!--
+  To find  where the Django source files are located on your system, command: python -c "import django; print(django.__path__)"
+  from that path copied base_site.html from django/contrib/admin/templates
+  
+  Lesson 7:  Edited branding to 'Polls Administration' 
+-->
 {% extends "admin/base.html" %}
 
 {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
